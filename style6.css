@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(180deg, #100494b6 25%, #483D8B 90%);
+    width: 100vw;
+  
+}
+.container{
+    max-width: 1440px;
+    padding: 3%;
+    margin: 0 auto;
+    
+    }
+    nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+    }
+    nav .logo{
+    font-size: 35px;
+    font-style: italic;
+    color: white;
+    font-weight: bold;
+    }
+    nav ul{
+    list-style-type: none;
+    }
+    nav ul li{
+    display: inline-block;
+    
+    }
+    nav ul li a{
+    padding: 25px 35px;
+    text-decoration: none;
+    font-size: 21px;
+    color: white;
+    border-radius: 30px;
+    transition: 0.7s;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 25px;
+    }
+    img{
+        border: #db8f1d solid 2px;
+      max-width: 500px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 8px;
+      border-radius: 20px;
+      }
+      .texto{
+      color: white;
+      font-family: 'Times New Roman', Times, serif;
+      margin: 20px;
+      font-style: italic;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      font-size: 25px;
+      
+      }
+      nav ul li :hover{
+        background-color: #f0a212;
+        border-radius: 20px;
+        
+      }
+      .controle{
+        margin: 5px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      
+      }
+      .alerta{
+        color: white;
+        font-size: 20px;
+        margin: 20px;
+        text-align: center;
+        display: grid;
+        place-items: center;
+    }
+    .alertatexto{
+        background-color: rgba(255, 255, 255, 0.425);
+        border: solid #db8f1d 4px;
+        font-style: italic;
+        margin: 20px;
+    }
+    p{
+    font-size: 35px;
+    background-color: rgba(255, 255, 255, 0.425);
+    border: solid #db8f1d 4px;
+    margin: 8px;
+    }

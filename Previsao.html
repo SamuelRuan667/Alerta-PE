@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Pixelify+Sans&family=Ubuntu:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/CSS/style3.css" />
+    <script src="/js/script.js"></script>
+    <title>Previsão do tempo</title>
+
+  </head>
+  <body>
+    <header>
+        <div class="container">
+          <!--Menu de Navegação-->
+          <nav>
+            <div class="logo">
+              <span>Alerta PE</span>
+            </div>
+            <ul>
+              <li>
+                <a href="Pagina1.html">Incio</a>
+                <a href="informacoes.html">Informações</a>
+                <a href="Alertas.html">Alertas</a>
+                <a href="Previsao.html">Previsão do Tempo</a>
+                <a href="Mapa.html">Mapa</a>
+                <a href="Contatos.html">Contatos</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+    </header>
+    <div class="caixa-maior">
+      <input class="input-cidade" placeholder="Digite o nome da cidade " />
+      <button class="botao-busca" onclick="cliqueinobotao()">
+        <img
+          class="img-busca"
+          src="data:image/png;base64,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"
+          alt="busca"
+        />
+      </button>
+
+      <div class="caixa-media">
+        <div class="caixa-normal">
+          <h2 class="cidade">Tempo em São Paulo</h2>
+          <img
+            class="bandeira"
+            src="https://flagsapi.com/BR/shiny/64.png"
+            alt="Bandeira da cidade"
+            id="country"
+          />
+        </div>
+
+        <p class="temp">21°C</p>
+
+        <div class="caixa-menor">
+          <p class="texto-previsao">Limpo</p>
+          <img
+            class="img-previsao"
+            alt="icone-info-tempo"
+            src="http://openweathermap.org/img/wn/01n.png"
+          />
+        </div>
+
+        <p class="umidade">umidade: 76%</p>
+        <p class="vento">Velocidade do Vento: 3Km/h</p>
+      </div>
+    </div>
+  </body>
+</html>

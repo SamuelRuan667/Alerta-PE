@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alerta PE</title>
+    <link rel="stylesheet" href="/CSS/estilo.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <!--Menu de Navegação-->
+        <nav>
+          <div class="logo">
+            <span>Alerta PE</span>
+          </div>
+          <ul>
+            <li>
+              <a href="Pagina1.html">Inicio</a>
+              <a href="informacoes.html">Informações</a>
+              <a href="Alertas.html">Alertas</a>
+              <a href="Previsao.html">Previsão do Tempo</a>
+              <a href="Mapa.html">Mapa</a>
+              <a href="Contatos.html">Contatos</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!--Apresentação do projeto-->
+    <div class="texto">
+      <img id="imagem3" src="Imagens/P2.webp" alt="Alerta" />
+      <div class="fundo">
+      <h1>O que é o Alerta PE?</h1>
+      <h3>
+        O alerta PE é um canal que visa auxiliar a comunicação entre a população
+        e a defesa civil,<br />
+        de uma forma simples e objetivas. aqui você vai ter acesso a contatos
+        dos orgãos competentes <br> e também se manter informado <br />
+        sobre a previsão do tempo, informações da defesa civil e suas ações,
+        alertas, mapa de área de risco 
+        e muito mais.
+      </h3>
+      </div>
+    </div>
+    <!---Conteudo Principal-->
+    <main>
+      <div class="controle">
+        <div>
+          <img id="Contato1" src="Imagens/Design sem nome.jpg" alt="" />
+          <h1>Contatos</h1>
+          <h3>
+            Você pode ter acesso a contatos dos orgão competentes como defesa
+            civil,<br />
+            policia militar, bombeiros...
+          </h3>
+        </div>
+        <div>
+          <img src="Imagens/Previsão do tempo.png" alt="" />
+          <h1>Previsão do tempo</h1>
+          <h3>
+            Também disponibilizamos o acompanhamento da previsão do tempo para
+            você ficar ligado
+          </h3>
+        </div>
+        <div>
+          <img src="Imagens/informação1.webp" alt="" />
+          <h1>Informações</h1>
+          <h3>
+            Aqui você encontra informações sobre a defesa civil e suas ações
+          </h3>
+        </div>
+        <div>
+          <img src="Imagens/Mapa1.webp" alt="" />
+          <h1>Mapa</h1>
+          <h3>
+            Localizaçao das regionais da defesa civil mais próxima de você
+          </h3>
+        </div>
+        <div>
+          <img id="alerta1" src="Imagens/alerta1.webp" alt="" />
+          <h1>Alertas</h1>
+          <h3>
+            Alertas de temporais e de grande quantidade de chuva para manter
+            você atento em casos de emergência
+          </h3>
+        </div>
+      </div>
+    </main>
+
+    <!--Formulario de feedback-->
+    <h1 id="contatos">Queremos ouvir você</h1>
+    <div class="center">
+      <form
+        action="https://formsubmit.co/alertape46@gmail.com
+      "
+        method="POST"
+        class="form"
+      >
+        <label for="name">Nome</label>
+        <input type="text" name="name" id="name" required />
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email" required />
+        <label for="message">Mensagem</label>
+        <textarea name="message" id="message" required></textarea>
+        <input type="hidden" name="_captcha" value="false" />
+        <input
+          type="hidden"
+          name="_next"
+          value="http://127.0.0.7:5501/Obrigado.html"
+        />
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,191 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+
+}
+
+body{
+  background: linear-gradient(180deg, #100494b6 25%, #483D8B 90%);
+}
+.container{
+max-width: 1440px;
+padding: 3%;
+margin: 0 auto;
+
+}
+nav{
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+
+}
+nav .logo{
+font-size: 35px;
+font-style: italic;
+color: white;
+font-weight: bold;
+}
+nav ul{
+list-style-type: none;
+}
+nav ul li{
+display: inline-block;
+
+}
+nav ul li a{
+padding: 25px 35px;
+text-decoration: none;
+font-size: 21px;
+color: white;
+border-radius: 30px;
+transition: 0.7s;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-style: italic;
+font-size: 25px;
+}
+img{
+  border: #db8f1d solid 2px;
+max-width: 500px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 8px;
+border-radius: 20px;
+}
+.texto{
+color: white;
+font-family: 'Times New Roman', Times, serif;
+margin: 20px;
+font-style: italic;
+align-items: center;
+text-align: center;
+justify-content: center;
+font-size: 25px;
+
+}
+.fundo{
+  background-color: rgba(255, 255, 255, 0.233);
+  border: solid #db8f1d 4px;
+  font-style: italic;
+  
+}
+nav ul li :hover{
+  background-color: #f0a212;
+  border-radius: 20px;
+  
+}
+
+form {
+    width: 100%;
+    max-width: 32rem;
+    font-size: 1.125rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  
+   
+  }
+  
+  .form label,
+  .form input,
+  .form textarea,
+  .form button {
+    display: block;
+    width: 100%;
+ 
+  }
+  
+  .form label {
+    color: #fff;
+    line-height: 1;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form input,
+  .form textarea {
+    font: inherit;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    transition: border-color, box-shadow 0.2s;
+  }
+  
+  .form textarea {
+    min-height: 13rem;
+    resize: vertical;
+  }
+  
+  .form input:hover,
+  .form input:focus,
+  .form textarea:hover,
+  .form textarea:focus {
+    outline: none;
+    border-color: rgb(14, 221, 32);
+    box-shadow: 0 0 0 3px #17c507;
+  }
+  
+  .form button {
+    display: block;
+    padding: 1rem;
+    background: #c04c08;
+    color: #fff;
+    font: inherit;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  
+  .form button:hover,
+  .form button:focus {
+    outline: none;
+    background: rgb(39, 114, 4);
+  }
+  h1#contatos{
+    font-size: 3rem;
+    color: #fff;
+    margin-bottom: 2rem;
+    text-align: center;
+    line-height: 1.2;
+    content: "📧";
+  display: block;
+  }
+  .center{
+justify-content: center;
+align-items: center;
+text-align: center;
+display: flex;
+  }
+main,h1, h3{
+  color: white;
+  font-style: italic;
+  margin: 15px;
+}
+
+.controle{
+  margin: 5px;
+display: grid;
+grid-template-columns: 1fr 1fr;
+
+}
+#imagem3{
+align-items: center;
+text-align: center;
+justify-content: center;
+display:inline-block;
+
+
+}
+#Contato1{
+height: 50vh;
+
+}
+#alerta1{
+height: 50vh;
+
+}

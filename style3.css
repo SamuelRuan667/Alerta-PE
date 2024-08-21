@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "ubuntu", sans-serif;
+    }
+        
+    .container{
+        max-width: 1440px;
+        padding: 3%;
+        margin: 0 auto;
+       
+        
+        }
+
+        nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        
+        }
+        nav .logo{
+        font-size: 35px;
+        font-style: italic;
+        color: white;
+        font-weight: bold;
+        }
+        nav ul{
+        list-style-type: none;
+        }
+        nav ul li{
+        display: inline-block;
+        
+        }
+        nav ul li a{
+        padding: 25px 35px;
+        text-decoration: none;
+        font-size: 21px;
+        color: white;
+        border-radius: 30px;
+        transition: 0.7s;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: italic;
+        font-size: 25px;
+        }
+        .texto{
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        margin: 20px;
+        font-style: italic;
+        
+        }
+        nav ul li :hover{
+            background-color: #db8f1d;
+            border-radius: 20px;
+          
+        }
+    
+    body{
+        height: 100vh;
+        width: 100vw;
+        
+        background: linear-gradient(180deg, #100494b6 25%, #fff 90%);
+    }
+    
+    .caixa-maior {
+        background-color: #db8f1d;
+        opacity: 1;
+        border-radius: 25px;
+        padding: 20px;
+        width: 95%;
+        max-width: 400px;
+        margin: 35px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        
+    }
+    
+    .input-cidade {
+        border: none;
+        outline: none;
+        padding: 10px;
+        border-radius: 25px;
+        font-size: 20px;
+        color: #080808;
+        width: calc(100% - 50px);
+    }
+    
+    .botao-busca {
+        border: none;
+        outline: none;
+        padding: 10px;
+        border-radius: 50px;
+        cursor: pointer;
+        float: right;
+    }
+    
+    .img-busca {
+        width: 22px;
+    } 
+    
+    .caixa-media {
+        margin-top: 15px;
+        align-items: center;
+    }
+    
+    .cidade {
+        color: #fff;
+        font-size: 28px;
+        font-weight: 300;
+    }
+    
+    .temp {
+        font-size: 25px;
+        color: #fff;
+        margin-top: none;
+    }
+    
+    .caixa-menor {
+        display: flex;
+        align-items: center;
+        margin-top: 5px;
+    }
+    
+    .texto-previsao {
+        color: #fff;
+        margin-left: 0px;
+        text-transform: capitalize;
+        font-size: 25px;
+    }
+    
+    .umidade {
+        color: #fff;
+        margin-top: 10px;
+        font-size: 25px;
+    }
+
+    .bandeira {
+        display: flex;
+        height: 35px;
+        margin: 8px;
+        border-radius: 50px;
+    }
+    
+    .caixa-normal {
+    display: flex;
+    align-items: center;
+    }
+
+    .vento {
+        color: #fff;
+        display: flex;
+        margin: none;
+        font-size: 20px;
+    }

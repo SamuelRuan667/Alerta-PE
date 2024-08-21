@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+    }
+    
+    body{
+      background: linear-gradient(180deg, #100494b6 25%, #483D8B 90%);
+      
+    }
+    .container{
+    max-width: 1440px;
+    padding: 3%;
+    margin: 0 auto;
+    
+    }
+    nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+    }
+    nav .logo{
+    font-size: 35px;
+    font-style: italic;
+    color: white;
+    font-weight: bold;
+    }
+    nav ul{
+    list-style-type: none;
+    }
+    nav ul li{
+    display: inline-block;
+    
+    }
+    nav ul li a{
+    padding: 25px 35px;
+    text-decoration: none;
+    font-size: 21px;
+    color: white;
+    border-radius: 30px;
+    transition: 0.7s;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 23px;
+    }
+    .texto{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    font-style: italic;
+    
+    }
+    nav ul li :hover{
+      background-color: #f0a212;
+      border-radius: 20px;
+      
+    }
+
+    .links{
+      text-align: center;
+      font-size: 4rex;
+    }
+    img{
+      border: #db8f1d solid;
+      max-width: 600px;
+      margin: 20px;
+      border-radius: 20px;
+    }
+    .links a{ 
+      text-decoration: none;
+      color: aqua;
+      
+    }
+    .links a:visited{
+      color: red;
+    }
+    .links a:hover{
+      color: #21d609;
+      background-color: red;
+      
+    }
+    .contatos1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    }
+    #PM{
+    max-width: 250px;
+    margin: 10px;
+
+    }
+    h1,h3{
+    color: white;
+    margin: 7px;
+    text-decoration: none;
+
+
+    }
+    #bombeiro{
+    max-width: 250px;
+    margin: 8px;
+    height: 50vh;
+
+    }
+    #Guarda{
+    max-width: 250px;
+    margin: 8px;
+
+    }
+    #Samu{
+    height: 45vh;
+    margin: 8px;
+    max-width: 250px;
+
+    }
+    #ittb{
+     max-width: 250px;
+     margin: 8px;
+
+    }
+    button{
+    font-size: 25px;
+    font-style: italic;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    }
+    
